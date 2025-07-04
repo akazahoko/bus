@@ -2,16 +2,16 @@
 
 ## Audio
 
-| Software                                                        | Type      | Platform           | Description            |
-| --------------------------------------------------------------- | --------- | ------------------ | ---------------------- |
-| [Audacity](https://www.audacityteam.org/)                       | Tool      | Universal          | Audio editor           |
-| [CUETools](http://cue.tools/wiki/CUETools_Download)             | Tool      | Windows            | CUESheet editor        |
-| [Elisa](https://apps.kde.org/en-gb/elisa/)                      | Player    | Linux              | Bundled in KDE         |
-| [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) | Equalizer | Windows            |                        |
-| [foobar2000](https://www.foobar2000.org)                        | Player    | Windows, Mac, WINE | SEE: [foobar2000](Config.md#foobar2000)    |
-| [JamesDSP](https://github.com/Audio4Linux/JDSP4Linux)           | Equalizer | Linux              |                        |
-| [MP3TAG](https://www.mp3tag.de/en/index.html)                   | Tool      | Windows, Mac       | Tag editor             |
-| [VCDGear](https://www.vcdgear.com/)                             | Tool      | Universial         | Audio format converter |
+| Software                                                        | Type      | Platform           | Description                               |
+| --------------------------------------------------------------- | --------- | ------------------ | ----------------------------------------- |
+| [Audacity](https://www.audacityteam.org/)                       | Tool      | Universal          | Audio editor                              |
+| [CUETools](http://cue.tools/wiki/CUETools_Download)             | Tool      | Windows            | CUESheet editor                           |
+| [Elisa](https://apps.kde.org/en-gb/elisa/)                      | Player    | Linux              | Bundled in KDE                            |
+| [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) | Equalizer | Windows            |                                           |
+| [foobar2000](https://www.foobar2000.org)                        | Player    | Windows, Mac, WINE | SEE: [config](/docs/config/foobar2000.md) |
+| [JamesDSP](https://github.com/Audio4Linux/JDSP4Linux)           | Equalizer | Linux              |                                           |
+| [MP3TAG](https://www.mp3tag.de/en/index.html)                   | Tool      | Windows, Mac       | Tag editor                                |
+| [VCDGear](https://www.vcdgear.com/)                             | Tool      | Universial         | Audio format converter                    |
 
 ## Books
 
@@ -22,19 +22,29 @@
 
 ## Games
 
-| Software                                              | Type     | Platform     | Description            |
-| ----------------------------------------------------- | -------- | ------------ | ---------------------- |
-| [Bluestack](https://www.bluestacks.com/tw/index.html) | Emulator | Windows, Mac | Android                |
-| [Content Manager](https://acstuff.ru/app/)            | Launcher | Windows      | Assetto Corsa Launcher |
-| [Flashpoint](https://flashpointarchive.org/)          | Emulator | Universial*  | Adobe Flash            |
-| [OpenIV](https://openiv.com/)                         | Tool     | Windows      | GTA Modding tools      |
-| [PCSX2](https://pcsx2.net/)                           | Emulator | Universial   | PS2                    |
-| [PPSSPP](https://www.ppsspp.org/)                     | Emulator | Universial   | PSP                    |
-| [PrismLauncher](https://prismlauncher.org/)           | Launcher | Universial   | Minecraft Launcher     |
-| [RPCS3](https://rpcs3.net/)                           | Emulator | Universial*  | PS3                    |
-| [TeknoParrot](https://teknoparrot.com/)               | Emulator | Windows      | Arcade                 |
-| [Xenia](https://xenia.jp/)                            | Emulator | Windows      | Xbox 360               |
+| Software                                              | Type     | Platform       | Description                  |
+| ----------------------------------------------------- | -------- | -------------- | ---------------------------- |
+| [ALVR](https://github.com/alvr-org/ALVR)              | Tool     | Windows, Linux | Stream VR from PC to headset |
+| [Bluestack](https://www.bluestacks.com/tw/index.html) | Emulator | Windows, Mac   | Android                      |
+| [Content Manager](https://acstuff.ru/app/)            | Launcher | Windows        | Assetto Corsa Launcher       |
+| [Flashpoint](https://flashpointarchive.org/)          | Emulator | Universial*    | Adobe Flash                  |
+| [OpenIV](https://openiv.com/)                         | Tool     | Windows        | GTA Modding tool             |
+| [PCSX2](https://pcsx2.net/)                           | Emulator | Universial     | PS2                          |
+| [PPSSPP](https://www.ppsspp.org/)                     | Emulator | Universial     | PSP                          |
+| [PrismLauncher](https://prismlauncher.org/)           | Launcher | Universial     | Minecraft Launcher           |
+| [RPCS3](https://rpcs3.net/)                           | Emulator | Universial*    | PS3                          |
+| [TeknoParrot](https://teknoparrot.com/)               | Emulator | Windows        | Arcade                       |
+| [Xenia](https://xenia.jp/)                            | Emulator | Windows        | Xbox 360                     |
 
+## Wine
+| Software                                                | Type        | Platform   | Description    |
+| ------------------------------------------------------- | ----------- | ---------- | -------------- |
+| [Lutris](https://lutris.net/)                           | Manager     | Linux      | Linux Gaming   |
+| [Porting Kit](https://www.portingkit.com/)              | Manager     | Mac        | Wineskin       |
+| [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/) | Tool        | Linux      | Proton Manager |
+| [Wine](https://www.winehq.org/)                         | Engine      | Linux, Mac | -              |
+| [WineGUI](https://gitlab.melroy.org/melroy/winegui)     | GUI Wrapper | Linux      | -              |
+| [Winetricks](https://winetricks.org/)                   | Tool        | Linux      | Config Wine    |
 ## Images
 
 | Software                                            | Type   | Platform   | Description                                           |
@@ -52,7 +62,7 @@
 | [MKVCleaver](https://blogs.sapib.ca/apps/mkvcleaver/)                 | Tool   | Windows        | MKVToolNix GUI Batch Extractor                                        |
 | [MKV MuxingBatchGUI](https://github.com/yaser01/mkv-muxing-batch-gui) | Tool   | Windows, Linux | Batch Muxing                                                          |
 | [MKVToolNix](https://mkvtoolnix.download/)                            | Tool   | Universial     |                                                                       |
-| [mpv](https://mpv.io/)                                                | Player | Universial     | SEE: [mpv-config]()                                                   |
+| [mpv](https://mpv.io/)                                                | Player | Universial     | SEE: [config](/docs/config/mpv.md)                                    |
 | [VideoSubFinder](https://sourceforge.net/projects/videosubfinder/)    | Tool   | Windows        | Subtitle OCR                                                          |
 | [VLC media player](https://www.videolan.org/vlc/)                     | Player | Universial     |                                                                       |
 
@@ -70,39 +80,40 @@
 
 ## Files
 
-| Software                                                      | Type      | Platform   | Description                     |
-| ------------------------------------------------------------- | --------- | ---------- | ------------------------------- |
-| [7-Zip](https://www.7-zip.org/)                               | Archive   | Windows    |                                 |
-| [Ark](https://apps.kde.org/ark/)                              | Archive   | Linux      | Bundled in KDE                  |
-| [czkawka](https://github.com/qarmin/czkawka)                  | Finder    | Universial | For duplicated files            |
-| [Everything](https://www.voidtools.com/)                      | Finder    | Windows    |                                 |
-| [fat32format](http://ridgecrop.co.uk/index.htm?guiformat.htm) | Converter | Windows    | Format Disk over 32GBs to fat32 |  |
-| [Filelight](https://apps.kde.org/en-gb/filelight/)            | Analyzer  | Linux      | Bundled in KDE                  |
-| [qDirStat](https://github.com/shundhammer/qdirstat)           | Analyzer  | Linux      | Disk analyser                   |
-| [WizTree](https://diskanalyzer.com/)                          | Analyzer  | Windows    | Disk analyser                   |
-| [Rclone](https://rclone.org/)                                 | Cloud     | Universial | Sync with Clouds                |
+| Software                                                                | Type      | Platform   | Description                     |
+| ----------------------------------------------------------------------- | --------- | ---------- | ------------------------------- |
+| [7-Zip](https://www.7-zip.org/)                                         | Archive   | Windows    | -                               |
+| [Ark](https://apps.kde.org/ark/)                                        | Archive   | Linux      | Bundled in KDE                  |
+| [BulkFileChanger](https://www.nirsoft.net/utils/bulk_file_changer.html) | Tool      | Windows    | -                               |
+| [czkawka](https://github.com/qarmin/czkawka)                            | Finder    | Universial | For duplicated files            |
+| [Everything](https://www.voidtools.com/)                                | Finder    | Windows    | -                               |
+| [fat32format](http://ridgecrop.co.uk/index.htm?guiformat.htm)           | Converter | Windows    | Format Disk over 32GBs to fat32 |  |
+| [Filelight](https://apps.kde.org/en-gb/filelight/)                      | Analyzer  | Linux      | Bundled in KDE                  |
+| [qDirStat](https://github.com/shundhammer/qdirstat)                     | Analyzer  | Linux      | Disk analyser                   |
+| [WizTree](https://diskanalyzer.com/)                                    | Analyzer  | Windows    | Disk analyser                   |
+| [Rclone](https://rclone.org/)                                           | Cloud     | Universial | Sync with Clouds                |
 
 ## Text Editors
 
-| Software                                                          | Type       | Platform    | Description                  |
-| ----------------------------------------------------------------- | ---------- | ----------- | ---------------------------- |
+| Software                                                          | Type       | Platform    | Description                                          |
+| ----------------------------------------------------------------- | ---------- | ----------- | ---------------------------------------------------- |
 | [Aegisub](https://github.com/TypesettingTools/Aegisub)            | Subtitle   | Universial  |
-| [Fanhuaji](https://github.com/Fanhuaji/Fanhuaji-GUI-by-James1201) | Translator | Universial  | 繁簡轉換                     |
+| [Fanhuaji](https://github.com/Fanhuaji/Fanhuaji-GUI-by-James1201) | Translator | Universial  | 繁簡轉換                                             |
 | [MarkText](https://github.com/marktext/marktext)                  | Markdown   | Universial  |
-| [Notepad++](https://notepad-plus-plus.org/)                       | General    | Windows     |                              |
-| [Visual Studio Code](https://code.visualstudio.com/)              | General    | Universial  | SEE: [code-config]()         |
-| [Typora](https://typora.io/)                                      | Markdown   | Universial* |                              |
-| [Obsidian](https://obsidian.md/)                                  | Markdown   | Universial  | Note Taking, SEE: [config]() |
+| [Notepad++](https://notepad-plus-plus.org/)                       | General    | Windows     |                                                      |
+| [Visual Studio Code](https://code.visualstudio.com/)              | General    | Universial  | SEE: [config](/docs/config/code.md)                  |
+| [Typora](https://typora.io/)                                      | Markdown   | Universial* |                                                      |
+| [Obsidian](https://obsidian.md/)                                  | Markdown   | Universial  | Note Taking, SEE: [config](/docs/config/obsidian.md) |
 
 ## Downloaders
 
-| Software                                                                          | Type    | Platform   | Description                                                                               |
-| --------------------------------------------------------------------------------- | ------- | ---------- | ----------------------------------------------------------------------------------------- |
-| [Album Art Downloader](https://sourceforge.net/projects/album-art/)               | Image   | Windows    | Album Finder                                                                              |
-| [Grabber](https://github.com/bionus/imgbrd-grabber/)                              | Image   | Universial | SEE: [booru-sites](https://github.com/akazahoko/config/wiki/Useful-Websites/#image-board) |
+| Software                                                                          | Type    | Platform   | Description                                        |
+| --------------------------------------------------------------------------------- | ------- | ---------- | -------------------------------------------------- |
+| [Album Art Downloader](https://sourceforge.net/projects/album-art/)               | Image   | Windows    | Album Finder                                       |
+| [Grabber](https://github.com/bionus/imgbrd-grabber/)                              | Image   | Universial | SEE: [sites](/docs/lazy_to_find/websites.md#booru) |
 | [Line Sticker Downloader](https://github.com/doubleplusc/Line-sticker-downloader) | Image   | Python     |
 | [Internet Download Manager](https://www.internetdownloadmanager.com/)             | General | Windows    |
-| [qBittorrent](https://www.qbittorrent.org/)                                       | Torrent | Universial | SEE: [torrent-sites]()                                                                    |
+| [qBittorrent](https://www.qbittorrent.org/)                                       | Torrent | Universial | SEE: [sites](/docs/lazy_to_find/websites.md)       |
 
 ## IOS Tools
 
