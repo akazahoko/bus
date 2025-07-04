@@ -1,0 +1,7 @@
+# mpv
+
+## Plugins
+
+## Configs
+
+## Path
