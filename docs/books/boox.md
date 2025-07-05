@@ -1,7 +1,7 @@
 # Boox E-ink Device Guide
 
 # System Packages
-Actually most are bloats
+Debloat with ADB
 
 | Name                            | Description                        |
 | ------------------------------- | ---------------------------------- |
@@ -27,12 +27,13 @@ Actually most are bloats
 
 # Useful Packages
 
-| Name                                                              | Type   | Source  | Description |
-| ----------------------------------------------------------------- | ------ | ------- | ----------- |
-| [Boox Rapid Draw](https://github.com/sergeylappo/boox-rapid-draw) | Tool   | `.apk`  | -           |
-| [F-Droid](https://f-droid.org/)                                   | Store  | `.apk`  | -           |
-| [KOReader](https://koreader.rocks/)                               | Reader | F-Droid | -           |
-| [Notable](https://github.com/Ethran/notable)                      | Note   | `.apk`  | -           |
+| Name                                                              | Type   | Source  | Description                                    |
+| ----------------------------------------------------------------- | ------ | ------- | ---------------------------------------------- |
+| [Boox Rapid Draw](https://github.com/sergeylappo/boox-rapid-draw) | Tool   | `.apk`  | Reduce lag when writing in 3rd-party note apps |
+| [F-Droid](https://f-droid.org/)                                   | Store  | `.apk`  | -                                              |
+| [KOReader](https://koreader.rocks/)                               | Reader | F-Droid | [Guide](/docs/books/library.md#koreader)       |
+| [Mihon](https://mihon.app/)                                       | Reader | `.apk`  | NSFW                                           |
+| [Notable](https://github.com/Ethran/notable)                      | Note   | `.apk`  | -                                              |
 
 # Read More
 
