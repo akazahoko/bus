@@ -1,9 +1,11 @@
 # Bunch of useful stuff
 
 # Guides
-- [Git](/docs/git.md)
-- [Fedora Linux](/docs/linux/home.md)
+- [Setting up Boox E-Reader](/docs/books/boox.md)
+- [Managing Book Library](/docs/books/main.md)
+- [Using Git](/docs/git.md)
+- [Using Fedora Linux](/docs/linux/home.md)
 
-# Lazy To Find
+# Lazy To Find 
 - [Software](/docs/lazy_to_find/software.md)
 - [Websites](/docs/lazy_to_find/websites.md)

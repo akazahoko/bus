@@ -16,6 +16,8 @@
 
 ## Books
 
+*Guide: [Manage Book Library](/docs/books/main.md)*
+
 | Software                                  | Type    | Platform         | Description                                                                            |
 | ----------------------------------------- | ------- | ---------------- | -------------------------------------------------------------------------------------- |
 | [calibre](https://calibre-ebook.com/)     | Library | Universial       | EXT: [stop-translate-path](https://github.com/Cirn09/calibre-do-not-translate-my-path) |
