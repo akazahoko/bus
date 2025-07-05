@@ -1,6 +1,4 @@
-# Useful Websites
-
-## ACGN
+# ACGN
 
 | Site                             | Type  | Description                      |
 | -------------------------------- | ----- | -------------------------------- |
@@ -12,7 +10,7 @@
 | [VCB-bbs](https://404.website/)  | Anime | Subtitle Forum                   |
 | [VGMdb](https://vgmdb.net/)      | Music | Anime Songs Database             |
 
-### Booru
+## Booru
 
 - [Danbooru](https://danbooru.donmai.us)
 - [Gelbooru](https://gelbooru.com/)
@@ -20,7 +18,7 @@
 - [Yande.re](https://yande.re/post)
 - [zerochan](https://www.zerochan.net/)
 
-## NSFW
+# NSFW
 
 | Site                                                                                 | Type     | Description  |
 | ------------------------------------------------------------------------------------ | -------- | ------------ |
@@ -35,14 +33,14 @@
 | [禁漫天堂](https://18comic.vip/)                                                     | Manga    | -            |
 | [ピンク乳首ちゅーどく！](https://hjsv.com/)                                          | FC2      | Leaks        |
 
-## Search Engines
+# Search Engines
 
 | Site                                       | Type  | Description         |
 | ------------------------------------------ | ----- | ------------------- |
 | [SauceNAO](https://saucenao.com/)          | Image | Anime image sourcer |
 | [二次元画像詳細検索](https://ascii2d.net/) | Image | Anime Image sourcer |
 
-## Torrenting
+# Torrenting
 
 | Site                                        | Type    | Description                 |
 | ------------------------------------------- | ------- | --------------------------- |

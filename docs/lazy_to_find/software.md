@@ -12,6 +12,7 @@
 | [JamesDSP](https://github.com/Audio4Linux/JDSP4Linux)           | Equalizer | Linux              |                                           |
 | [MP3TAG](https://www.mp3tag.de/en/index.html)                   | Tool      | Windows, Mac       | Tag editor                                |
 | [VCDGear](https://www.vcdgear.com/)                             | Tool      | Universial         | Audio format converter                    |
+| [Kenku FM](https://www.kenku.fm/)                               | Streaming | Universal          | Stream Music to Discord                   |
 
 ## Books
 
@@ -105,6 +106,12 @@
 | [Typora](https://typora.io/)                                      | Markdown   | Universial* |                                                      |
 | [Obsidian](https://obsidian.md/)                                  | Markdown   | Universial  | Note Taking, SEE: [config](/docs/config/obsidian.md) |
 
+## System tool
+| Software                                  | Type     | Platform   | Description |
+| ----------------------------------------- | -------- | ---------- | ----------- |
+| [balenaEtcher](https://etcher.balena.io/) | Flashing | Universial | -           |
+| [Rufus](https://rufus.ie/)                | Flashing | Windows    | -           |
+
 ## Downloaders
 
 | Software                                                                          | Type    | Platform   | Description                                        |
@@ -113,7 +120,7 @@
 | [Grabber](https://github.com/bionus/imgbrd-grabber/)                              | Image   | Universial | SEE: [sites](/docs/lazy_to_find/websites.md#booru) |
 | [Line Sticker Downloader](https://github.com/doubleplusc/Line-sticker-downloader) | Image   | Python     |
 | [Internet Download Manager](https://www.internetdownloadmanager.com/)             | General | Windows    |
-| [qBittorrent](https://www.qbittorrent.org/)                                       | Torrent | Universial | SEE: [sites](/docs/lazy_to_find/websites.md)       |
+| [qBittorrent](https://www.qbittorrent.org/)                                       | Torrent | Universial | SEE: [sites](/docs/lazy_to_find/websites.md#torrenting)       |
 
 ## IOS Tools
 
@@ -145,4 +152,3 @@
 | [ThisIsWin11](https://github.com/builtbybel/ThisIsWin11)                      | Windows 11 Tweakers     |
 | [ViVeTool](https://github.com/thebookisclosed/ViVe)                           |                         |
 | [Windhawk](https://windhawk.net/)                                             | Windows 11 Tweakers     |
-
