@@ -5,6 +5,10 @@
 - [Using Fedora Linux](/docs/linux/home.md)
 - [Hyprland](/docs/linux/hypr/homepage.md)
 
+# Arch Linux
+- [Useful Packages](/docs/linux/arch-pac.md)
+- [Tips & Tricks](/docs/linux/arch-fix.md)
+
 # Books
 - [Managing Book Library](/docs/books/library.md)
 - [Setting up Boox E-Reader](/docs/books/boox.md)
