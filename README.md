@@ -1,9 +1,9 @@
 # Bunch of useful stuff
 
-
-# Computer
+# Guides
 - [Using Git](/docs/git.md)
 - [Using Fedora Linux](/docs/linux/home.md)
+- [Hyprland](/docs/linux/hypr/homepage.md)
 
 # Books
 - [Managing Book Library](/docs/books/library.md)
