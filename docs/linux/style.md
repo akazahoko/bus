@@ -11,11 +11,6 @@
 `otf-font-awesome` ([cheat-sheet](https://fontawesome.com/search))
 
 ## Themes
-Tools
-- GTK2/3/4: `nwg-look`
-- Qt5: `qt5ct-kde` (AUR)
-- Qt6: `qt6ct-kde` (AUR)
-
 ### [Catppuccin](https://catppuccin.com/) (GTK/Qt)
 (Available from AUR)
 - GTK: `catpuuccin-gtk-theme-{flavor}`
@@ -29,7 +24,10 @@ Avaliable flavors:
 
 *Extra: [Catppuccin Color Palette](https://catppuccin.com/palette/)*, [Style guide](https://github.com/catppuccin/catppuccin/blob/main/docs/style-guide.md)
 
-### [Vimix]()
+## Tool
+- GTK2/3/4: `nwg-look`
+- Qt5: `qt5ct-kde` (AUR)
+- Qt6: `qt6ct-kde` (AUR)
 
 ## Fixes
 ### Reset GSettings

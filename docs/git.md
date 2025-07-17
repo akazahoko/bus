@@ -13,4 +13,3 @@ ssh-keygen -t rsa -C "#email#"
 ```shell
 cat ~/.ssh/id_rsa.pub
 ```
-- [Alias](https://github.com/akazahoko/config/wiki/Zsh#alias)

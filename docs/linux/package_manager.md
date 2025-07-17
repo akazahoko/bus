@@ -1,22 +1,10 @@
-# DNF
+# Arch
+## Package
+
+# Fedora
+## DNF
 *sudo when install/remove/update*
-- Install (from repo/path)
-```shell
-dnf install #package-to-install#
-```
-- Remove
-```shell
-dnf remove #package-to-remove#
-```
-- Search package from repos
-```shell
-dnf search #package-to-search#
-```
-- Update system
-```shell
-dnf update
-```
-## RPM Fusion
+- Install (from repo/path## RPM Fusion
 ### Enable RPM Fusion with DNF:
 ```shell
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm

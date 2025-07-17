@@ -1,10 +1,6 @@
 # foobar2000
 
-## Guides
-
-- [Title Formatting](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Title_Formatting_Reference)
-
-## Plugins
+# Plugins
   
 - [Column UI](https://yuo.be/columns-ui)
   
@@ -18,4 +14,5 @@
   
 - [Panel Stack Splitter](http://foo2k.chottu.net/#pss)
 
-## Linux (WINE)
+# Reference
+- [Hydrogenaudio: Title Formatting](https://wiki.hydrogenaud.io/index.php?title=Foobar2000:Title_Formatting_Reference)
