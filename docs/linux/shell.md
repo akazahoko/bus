@@ -1,0 +1,1 @@
+[zsh](/docs/linux/zsh.md)
