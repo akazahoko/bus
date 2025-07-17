@@ -1,9 +1,15 @@
 # Package Managers
 
+- [Package Managers](#package-managers)
+  - [Arch](#arch)
+    - [Arch User Repository (AUR)](#arch-user-repository-aur)
+  - [Fedora](#fedora)
+    - [RPM Fusion](#rpm-fusion)
+  - [Mac OS](#mac-os)
+
+
 ## Arch
-Manager: 
-- Official: `pacman`
-- Arch User Repository (AUR): `yay`, `paru`
+Manager: `pacman`
 
 Sync:
 ```shell
@@ -19,6 +25,10 @@ Query:
 pacman -Q <package>     # query local packages
 pacman -Qi <package>    # 
 ```
+### Arch User Repository (AUR)
+Manager: `yay`, `paru`
+
+Install:
 
 ## Fedora
 Manager: `dnf`, `yum`
@@ -35,12 +45,29 @@ dnf upgrade             # upgrade all packages
 dnf upgrade <package>   # upgrade package
 ```
 
+### RPM Fusion
+Enable RPM Fusion Repo
+```shell
+sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+```
+Install Nvidia driver
+```shell
+sudo dnf install akmod-nvidia
+sudo dnf install xorg-x11-drv-nvidia-cuda # (Optional) CUDA/NVDEC/NVENC
+```
+Fix H.264
+```shell
+dnf swap ffmpeg ffmpeg-free --allowerasing
+sudo dnf update @multimedia --setopt="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin # Install additional codec
+```
+
 ## Mac OS
 Manager: 
 - [Homebrew](https://brew.sh/)
 - [Cask Upgrade](https://github.com/buo/homebrew-cask-upgrade)
+
+Install:
 ```bash
-# Install
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 Usage: 
