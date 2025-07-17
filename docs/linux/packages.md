@@ -25,10 +25,14 @@ Manager: `dnf`, `yum`
  
 Usage: 
 ```shell
-dnf update              # update system
+dnf search <package>    # search package
+
+dnf update              # update local database
 dnf install <package>   # install package
 dnf remove <package>    # remove package
-dnf search <package>    # search package
+
+dnf upgrade             # upgrade all packages
+dnf upgrade <package>   # upgrade package
 ```
 
 ## Mac OS
@@ -44,12 +48,15 @@ Usage:
 brew search <package>   # search package on repo
 brew info <package>     # show package info on repo
 
-brew update             # update all packages
-brew cu                 # update all casks
-brew update <package>   # update specific package
 brew list               # list current installed packages
 brew tap                # list 3rd party repos
 
+brew update             # update local database with repos
 brew install <package>  # install package
 brew remove <package>   # remove package
+
+brew upgrade            # upgrade all packages (formulae)
+brew upgrade <package>  # update specific package
+brew cu                 # upgrade all casks
+
 ```
