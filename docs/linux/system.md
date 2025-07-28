@@ -9,11 +9,14 @@
     - [Cloudflare Warp](#cloudflare-warp)
 - [Peripherals](#peripherals)
   - [Fans](#fans)
+  - [Printers](#printers)
 - [Service](#service)
   - [Disable xdg autostart](#disable-xdg-autostart)
   - [Disable XHCI Wakeup](#disable-xhci-wakeup)
   - [SDDM Autologin (with hyprland uwsm)](#sddm-autologin-with-hyprland-uwsm)
   - [Auto mount drives](#auto-mount-drives)
+- [Time \& Date](#time--date)
+  - [NTP](#ntp)
 
 # Audio
 > Reference: [PipeWire](https://wiki.archlinux.org/title/PipeWire), [WirePlumber](https://wiki.archlinux.org/title/WirePlumber)
@@ -84,6 +87,15 @@ Required Packages:
 sudo sensors-detect
 ```
 2. Configure via coolerControl
+## Printers
+> Reference: [Arch Wiki: CUPS](https://wiki.archlinux.org/title/CUPS)
+
+Prerequisities:
+  - `cups`
+  - `system-config-printer`
+
+1. Enable service `cups`
+2. Configure via system-config-printer (GUI)
 
 # Service
 ## Disable xdg autostart
@@ -135,4 +147,19 @@ sudo mkdir /mnt/$(DRIVE_NAME)
 3. Edit `/etc/fstab`
 ```shell
 UUID=$(DRIVE_UUID) $(MOUNT_POINT) $(PARTITION_FS) defaults 0 0 
+```
+
+# Time & Date
+## NTP
+> Reference: [Arch Wiki: systemd-timesyncd](https://wiki.archlinux.org/title/Systemd-timesyncd)
+
+1. Edit `/etc/systemd/timesyncd.conf`
+```
+/etc/systemd/timesyncd.conf
+---------------------------
+NTP=stdtime.gov.hk
+```
+2. Enable NTP
+```shell
+timedatectl set-ntp true
 ```
