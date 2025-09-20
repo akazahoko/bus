@@ -33,7 +33,7 @@ Wants=network-online.target
 Type=notify
 User=user
 Group=user
-ExecStart=/usr/bin/rclone \
+ExecStart=/usr/bin/rclone mount \
     #mount flags
 ExecStop=/bin/fusermount -uz /mnt/rclone
 Restart=on-failure
