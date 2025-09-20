@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "78f8d878bb814791",
+    "type": "split",
+    "children": [
+      {
+        "id": "d0a19cccffca954c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c9a138dad329ccd",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新分頁"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9ca481806e3cd62b",
+    "type": "split",
+    "children": [
+      {
+        "id": "63a9ed9caf6271e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6dbd79a175d188b7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "檔案瀏覽器"
+            }
+          },
+          {
+            "id": "2089904953662524",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜尋"
+            }
+          },
+          {
+            "id": "5b650944bd76e3f3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "書籤"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b2345384b8c2438c",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d25ee44a2a40479",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b1c86a53244d13c8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "linux/hyprland.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "hyprland 的反向連結"
+            }
+          },
+          {
+            "id": "9bf88785cb0b261e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "linux/hyprland.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "hyprland 的對外連結"
+            }
+          },
+          {
+            "id": "49339f9d226232f7",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "標籤"
+            }
+          },
+          {
+            "id": "492ca3b4107f9ba9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "linux/hyprland.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "hyprland 的大綱"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:建立新的 base": false,
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false
+    }
+  },
+  "active": "6dbd79a175d188b7",
+  "lastOpenFiles": [
+    "lazy_to_find/websites.md",
+    "lazy_to_find/software.md",
+    "config/rclone.md",
+    "config/code.md",
+    "books/library.md",
+    "books/boox.md",
+    "linux/hyprland.md",
+    "linux/input.md",
+    "windows/wsl.md",
+    "windows/packages.md",
+    "mac/packages.md",
+    "linux/system.md",
+    "git.md"
+  ]
+}
