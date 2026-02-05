@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d0a19cccffca954c",
+        "id": "e37d9a23f47c2946",
         "type": "tabs",
         "children": [
           {
-            "id": "9c9a138dad329ccd",
+            "id": "4b22d5dc7bd94f15",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "lazy_to_find/software.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新分頁"
+              "title": "software"
             }
           }
         ]
@@ -40,7 +44,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "檔案瀏覽器"
+              "title": "Files"
             }
           },
           {
@@ -74,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "b2345384b8c2438c",
@@ -156,29 +161,38 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:建立新的 base": false,
-      "switcher:開啟快速切換": false,
-      "graph:查看關聯圖": false,
-      "canvas:建立新畫布": false,
-      "daily-notes:開啟今天的每日筆記": false,
-      "templates:插入模板": false,
-      "command-palette:開啟命令面板": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "6dbd79a175d188b7",
+  "active": "4b22d5dc7bd94f15",
   "lastOpenFiles": [
-    "lazy_to_find/websites.md",
+    "linux/lazy_to_find_linux.md",
     "lazy_to_find/software.md",
-    "config/rclone.md",
-    "config/code.md",
-    "books/library.md",
-    "books/boox.md",
+    "mac/packages.md",
+    "linux/rice.md",
+    "config/shell.md",
+    "config/obsidian.md",
     "linux/hyprland.md",
     "linux/input.md",
-    "windows/wsl.md",
-    "windows/packages.md",
-    "mac/packages.md",
+    "linux/kde.md",
+    "linux/packages.md",
+    "linux/style.md",
     "linux/system.md",
-    "git.md"
+    "linux/XDG.md",
+    "books/library.md",
+    "books/boox.md",
+    "config/code.md",
+    "git.md",
+    "未命名.base",
+    "lazy_to_find/websites.md",
+    "config/rclone.md",
+    "windows/wsl.md",
+    "windows/packages.md"
   ]
 }

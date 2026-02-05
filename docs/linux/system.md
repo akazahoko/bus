@@ -1,25 +1,22 @@
-# System
-
-- [System](#system)
-- [Audio](#audio)
-  - [Configure sample rate](#configure-sample-rate)
-- [Network](#network)
-  - [DNS](#dns)
-    - [DNS over HTTPS](#dns-over-https)
-    - [Cloudflare Warp](#cloudflare-warp)
-- [Peripherals](#peripherals)
-  - [Fans](#fans)
-  - [Printers](#printers)
-- [Service](#service)
-  - [Disable xdg autostart](#disable-xdg-autostart)
-  - [Disable XHCI Wakeup](#disable-xhci-wakeup)
-  - [SDDM Autologin (with hyprland uwsm)](#sddm-autologin-with-hyprland-uwsm)
-  - [Auto mount drives](#auto-mount-drives)
-- [Time \& Date](#time--date)
-  - [NTP](#ntp)
-
+- [[#Audio|Audio]]
+	- [[#Audio#Configure sample rate|Configure sample rate]]
+- [[#Network|Network]]
+	- [[#Network#DNS|DNS]]
+		- [[#DNS#DNS over HTTPS|DNS over HTTPS]]
+		- [[#DNS#Cloudflare Warp|Cloudflare Warp]]
+- [[#Peripherals|Peripherals]]
+	- [[#Peripherals#Fans|Fans]]
+	- [[#Peripherals#Printers|Printers]]
+- [[#Service|Service]]
+	- [[#Service#Disable xdg autostart|Disable xdg autostart]]
+	- [[#Service#Disable XHCI Wakeup|Disable XHCI Wakeup]]
+	- [[#Service#SDDM Autologin (with hyprland uwsm)|SDDM Autologin (with hyprland uwsm)]]
+	- [[#Service#Auto mount drives|Auto mount drives]]
+- [[#Time & Date|Time & Date]]
+	- [[#Time & Date#NTP|NTP]]
+- [[#Locale|Locale]]
 # Audio
-> Reference: [PipeWire](https://wiki.archlinux.org/title/PipeWire), [WirePlumber](https://wiki.archlinux.org/title/WirePlumber)
+> SEE: [PipeWire](https://wiki.archlinux.org/title/PipeWire), [WirePlumber](https://wiki.archlinux.org/title/WirePlumber)
 
 - Backend: 
   - `pipewire`
@@ -151,7 +148,7 @@ UUID=$(DRIVE_UUID) $(MOUNT_POINT) $(PARTITION_FS) defaults 0 0
 
 # Time & Date
 ## NTP
-> Reference: [Arch Wiki: systemd-timesyncd](https://wiki.archlinux.org/title/Systemd-timesyncd)
+> SEE: [Arch Wiki: systemd-timesyncd](https://wiki.archlinux.org/title/Systemd-timesyncd)
 
 1. Edit `/etc/systemd/timesyncd.conf`
 ```
@@ -163,3 +160,8 @@ NTP=stdtime.gov.hk
 ```shell
 timedatectl set-ntp true
 ```
+
+# Locale
+> SEE: [Arch Wiki: Locale](https://wiki.archlinux.org/title/Locale)
+
+config: `/etc/locale.conf`

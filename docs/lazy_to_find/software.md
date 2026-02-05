@@ -2,18 +2,18 @@
 
 ## Audio
 
-| Software                                                        | Type      | Platform           | Description                               |
-| --------------------------------------------------------------- | --------- | ------------------ | ----------------------------------------- |
-| [Audacity](https://www.audacityteam.org/)                       | Tool      | Universal          | Audio editor                              |
-| [CUETools](http://cue.tools/wiki/CUETools_Download)             | Tool      | Windows            | CUESheet editor                           |
-| [Elisa](https://apps.kde.org/en-gb/elisa/)                      | Player    | Linux              | Bundled in KDE                            |
-| [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) | Equalizer | Windows            |                                           |
-| [foobar2000](https://www.foobar2000.org)                        | Player    | Windows, Mac, WINE | SEE: [config](/docs/config/foobar2000.md) |
-| [JamesDSP](https://github.com/Audio4Linux/JDSP4Linux)           | Equalizer | Linux              |                                           |
-| [MP3TAG](https://www.mp3tag.de/en/index.html)                   | Tool      | Windows, Mac       | Tag editor                                |
-| [VCDGear](https://www.vcdgear.com/)                             | Tool      | Universial         | Audio format converter                    |
-| [Kenku FM](https://www.kenku.fm/)                               | Streaming | Universal          | Stream Music to Discord                   |
-
+| Software                                                        | Type      | Platform | Description                               |
+| --------------------------------------------------------------- | --------- | -------- | ----------------------------------------- |
+| [Audacity](https://www.audacityteam.org/)                       | Tool      | , ,   | Audio editor                              |
+| [CUETools](http://cue.tools/wiki/CUETools_Download)             | Tool      |         | CUESheet editor                           |
+| [Elisa](https://apps.kde.org/en-gb/elisa/)                      | Player    |         | Bundled in KDE                            |
+| [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) | Equalizer |         |                                           |
+| [foobar2000](https://www.foobar2000.org)                        | Player    | , ,   | SEE: [config](/docs/config/foobar2000.md) |
+| [JamesDSP](https://github.com/Audio4Linux/JDSP4Linux)           | Equalizer |         |                                           |
+| [MP3TAG](https://www.mp3tag.de/en/index.html)                   | Tool      | ,      | Tag editor                                |
+| [VCDGear](https://www.vcdgear.com/)                             | Tool      | , ,   | Audio format converter                    |
+| [Kenku FM](https://www.kenku.fm/)                               | Streaming | , ,   | Stream Music to Discord                   |
+| [Audacious](https://audacious-media-player.org/)                | Player    | , ,   |                                           |
 ## Books
 
 *Guide: [Manage Book Library](/docs/books/main.md)*
