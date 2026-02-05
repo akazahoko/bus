@@ -9,16 +9,14 @@ Directory tree:
 ```
 $HOME
 ├── .zshenv
-└── .config/zsh
+└── .config/zsh/
 	├── .zshenv
 	├── .zprofile
 	├── .zshrc
 	├── .zlogin
 	└── .zlogout
 ```
-Everything is stored in `.config/zsh`. 
-`.zshenv` in `$HOME` directory exports the zsh config dir (`ZDOTDIR`) 
-config loading order: zshenv -> zprofile -> zshrc -> zlogin -> zlogout
+loading order: `zshenv` -> `zprofile` -> `zshrc` -> `zlogin` -> `zlogout`
 ## Customization: oh-my-zsh
 [Github: oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)
 ```shell

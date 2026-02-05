@@ -1,5 +1,4 @@
-# Rclone
-> *Reference: [Rclone: OneDrive](https://rclone.org/onedrive/)*
+> SEE: [Rclone: OneDrive](https://rclone.org/onedrive/)
 ## Setup  
 ```shell
 rclone config
@@ -21,9 +20,8 @@ rclone mount $(REMOTE_NAME): $(LOCAL_DIR) --vfs-cache-mode=full --file-perms=077
 ```
 
 ## Auto-mount on startup 
-Create a service 
-
-```sh
+- Create a service
+```shell title="/etc/systemd/user/rclone.service"
 [Unit]
 Description=Rclone Mount Service
 After=network-online.target
@@ -34,7 +32,7 @@ Type=notify
 User=user
 Group=user
 ExecStart=/usr/bin/rclone mount \
-    #mount flags
+    [mount flags]
 ExecStop=/bin/fusermount -uz /mnt/rclone
 Restart=on-failure
 RestartSec=5

@@ -1,46 +1,21 @@
-# Applications
-> Refer: [We are Wayland Now](https://wearewaylandnow.com/)
-
-## Wallpaper
-- Backend:
-  - `hyprpaper`
-  - `swww`
-- Frontend:
-  - `waypaper` 
-
-## Application Launcher
-- `rofi`
-- `wofi`
-- `tofi` (AUR)
-- `fuzzel ([config-wiki](https://man.archlinux.org/man/fuzzel.ini.5.en))
-
-## Status bar
-- `waybar` ([config-wiki](https://github.com/Alexays/Waybar/wiki))
-
-## logout menu
-- `wlogout`
-
-## Image
-- `qimgv`
-- `eog` -- Gnome Image Viewer 
-- `feh` -- CLI  
-
-## Screenshot
-- Backend:
-  - `grim`
-  - `slurp`
-- Frontend:
-  - `hyprshot`
-
-## Clipboard
-- Backend:
-  - `wl-clipboard`
-  - `wl-clip-persist`
-- Frontend:
-  - `cliphist`
-
-## File Manager
-https://wiki.archlinux.org/title/Category:File_managers
+# Configs
+Directory tree:
+```
+hypr/
+├── hypridle.conf
+├── hyprland/
+│   ├── appearance.conf
+│   ├── binds.conf
+│   ├── initialize.conf
+│   └── rules.conf
+├── hyprland.conf
+├── hyprlock.conf
+└── themes/
+```
+Modules:
+- [hyprland](https://hypr.land/)
+- [hypridle](https://github.com/hyprwm/hypridle)
+- [hyprlock](https://github.com/hyprwm/hyprlock)
 
 # Fixes
 
@@ -54,7 +29,7 @@ Required packages:
 - `grim`
 - `slurp`
 
-(Should be in dotfiles, if not) Add the following line in `hyprland.conf`: 
-```
+Add the following line in `hyprland.conf`: 
+```shell title="~/.config/hypr/hyprland/init.conf"
 exec-once=dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP
 ```

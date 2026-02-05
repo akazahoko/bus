@@ -2,72 +2,71 @@
 
 ## Audio
 
-| Software                                                        | Type      | Platform | Description                               |
-| --------------------------------------------------------------- | --------- | -------- | ----------------------------------------- |
-| [Audacity](https://www.audacityteam.org/)                       | Tool      | , ,   | Audio editor                              |
-| [CUETools](http://cue.tools/wiki/CUETools_Download)             | Tool      |         | CUESheet editor                           |
-| [Elisa](https://apps.kde.org/en-gb/elisa/)                      | Player    |         | Bundled in KDE                            |
-| [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) | Equalizer |         |                                           |
-| [foobar2000](https://www.foobar2000.org)                        | Player    | , ,   | SEE: [config](/docs/config/foobar2000.md) |
-| [JamesDSP](https://github.com/Audio4Linux/JDSP4Linux)           | Equalizer |         |                                           |
-| [MP3TAG](https://www.mp3tag.de/en/index.html)                   | Tool      | ,      | Tag editor                                |
-| [VCDGear](https://www.vcdgear.com/)                             | Tool      | , ,   | Audio format converter                    |
-| [Kenku FM](https://www.kenku.fm/)                               | Streaming | , ,   | Stream Music to Discord                   |
-| [Audacious](https://audacious-media-player.org/)                | Player    | , ,   |                                           |
+| Software                                                        | Type      | Platform      | Description             |
+| --------------------------------------------------------------- | --------- | ------------- | ----------------------- |
+| [Audacity](https://www.audacityteam.org/)                       | Tool      | WIN, MAC, LNX | Audio editor            |
+| [CUETools](http://cue.tools/wiki/CUETools_Download)             | Tool      | WIN           | CUESheet editor         |
+| [Elisa](https://apps.kde.org/en-gb/elisa/)                      | Player    | LNX           | Bundled in KDE          |
+| [Equalizer APO](https://sourceforge.net/projects/equalizerapo/) | Equalizer | WIN           |                         |
+| [foobar2000](https://www.foobar2000.org)                        | Player    | WIN, MAC, WNE |                         |
+| [JamesDSP](https://github.com/Audio4Linux/JDSP4Linux)           | Equalizer | LNX           |                         |
+| [MP3TAG](https://www.mp3tag.de/en/index.html)                   | Tool      | WIN, MAC      | Tag editor              |
+| [VCDGear](https://www.vcdgear.com/)                             | Tool      | WIN, MAC, LNX | Audio format converter  |
+| [Kenku FM](https://www.kenku.fm/)                               | Streaming | WIN, MAC, LNX | Stream Music to Discord |
+| [Audacious](https://audacious-media-player.org/)                | Player    | WIN, MAC, LNX |                         |
 ## Books
-
 *Guide: [Manage Book Library](/docs/books/main.md)*
 
-| Software                                  | Type    | Platform         | Description                                                                            |
-| ----------------------------------------- | ------- | ---------------- | -------------------------------------------------------------------------------------- |
-| [calibre](https://calibre-ebook.com/)     | Library | Universial       | EXT: [stop-translate-path](https://github.com/Cirn09/calibre-do-not-translate-my-path) |
-| [CDisplayEX](https://www.cdisplayex.com/) | Reader  | Windows, Android |                                                                                        |
+| Software                                  | Type    | Platform      | Description                                                                            |
+| ----------------------------------------- | ------- | ------------- | -------------------------------------------------------------------------------------- |
+| [calibre](https://calibre-ebook.com/)     | Library | WIN, MAC, LNX | EXT: [stop-translate-path](https://github.com/Cirn09/calibre-do-not-translate-my-path) |
+| [CDisplayEX](https://www.cdisplayex.com/) | Reader  | WIN, AND      |                                                                                        |
 
 ## Games
 
-| Software                                              | Type     | Platform       | Description                  |
-| ----------------------------------------------------- | -------- | -------------- | ---------------------------- |
-| [ALVR](https://github.com/alvr-org/ALVR)              | Tool     | Windows, Linux | Stream VR from PC to headset |
-| [Bluestack](https://www.bluestacks.com/tw/index.html) | Emulator | Windows, Mac   | Android                      |
-| [Content Manager](https://acstuff.ru/app/)            | Launcher | Windows        | Assetto Corsa Launcher       |
-| [Flashpoint](https://flashpointarchive.org/)          | Emulator | Universial*    | Adobe Flash                  |
-| [OpenIV](https://openiv.com/)                         | Tool     | Windows        | GTA Modding tool             |
-| [PCSX2](https://pcsx2.net/)                           | Emulator | Universial     | PS2                          |
-| [PPSSPP](https://www.ppsspp.org/)                     | Emulator | Universial     | PSP                          |
-| [PrismLauncher](https://prismlauncher.org/)           | Launcher | Universial     | Minecraft Launcher           |
-| [RPCS3](https://rpcs3.net/)                           | Emulator | Universial*    | PS3                          |
-| [TeknoParrot](https://teknoparrot.com/)               | Emulator | Windows        | Arcade                       |
-| [Xenia](https://xenia.jp/)                            | Emulator | Windows        | Xbox 360                     |
+| Software                                              | Type     | Platform      | Description                  |
+| ----------------------------------------------------- | -------- | ------------- | ---------------------------- |
+| [ALVR](https://github.com/alvr-org/ALVR)              | Tool     | WIN, LNX      | Stream VR from PC to headset |
+| [Bluestack](https://www.bluestacks.com/tw/index.html) | Emulator | WIN, MAC      | Android                      |
+| [Content Manager](https://acstuff.ru/app/)            | Launcher | WIN           | Assetto Corsa Launcher       |
+| [Flashpoint](https://flashpointarchive.org/)          | Emulator | WIN, MAC, LNX | Adobe Flash                  |
+| [OpenIV](https://openiv.com/)                         | Tool     | WIN           | GTA Modding tool             |
+| [PCSX2](https://pcsx2.net/)                           | Emulator | WIN, MAC, LNX | PS2                          |
+| [PPSSPP](https://www.ppsspp.org/)                     | Emulator | WIN, MAC, LNX | PSP                          |
+| [PrismLauncher](https://prismlauncher.org/)           | Launcher | WIN, MAC, LNX | Minecraft Launcher           |
+| [RPCS3](https://rpcs3.net/)                           | Emulator | WIN, MAC, LNX | PS3                          |
+| [TeknoParrot](https://teknoparrot.com/)               | Emulator | WIN           | Arcade                       |
+| [Xenia](https://xenia.jp/)                            | Emulator | WIN           | Xbox 360                     |
 
 ## Wine
-| Software                                                | Type        | Platform   | Description    |
-| ------------------------------------------------------- | ----------- | ---------- | -------------- |
-| [Lutris](https://lutris.net/)                           | Manager     | Linux      | Linux Gaming   |
-| [Porting Kit](https://www.portingkit.com/)              | Manager     | Mac        | Wineskin       |
-| [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/) | Tool        | Linux      | Proton Manager |
-| [Wine](https://www.winehq.org/)                         | Engine      | Linux, Mac | -              |
-| [WineGUI](https://gitlab.melroy.org/melroy/winegui)     | GUI Wrapper | Linux      | -              |
-| [Winetricks](https://winetricks.org/)                   | Tool        | Linux      | Config Wine    |
+| Software                                                | Type        | Platform | Description    |
+| ------------------------------------------------------- | ----------- | -------- | -------------- |
+| [Lutris](https://lutris.net/)                           | Manager     | LNX      | Linux Gaming   |
+| [Porting Kit](https://www.portingkit.com/)              | Manager     | MAC      | Wineskin       |
+| [ProtonUp-Qt](https://davidotek.github.io/protonup-qt/) | Tool        | LNX      | Proton Manager |
+| [Wine](https://www.winehq.org/)                         | Engine      | MAC, LNX | -              |
+| [WineGUI](https://gitlab.melroy.org/melroy/winegui)     | GUI Wrapper | LNX      | -              |
+| [Winetricks](https://winetricks.org/)                   | Tool        | LNX      | Config Wine    |
 ## Images
 
-| Software                                            | Type   | Platform   | Description                                           |
-| --------------------------------------------------- | ------ | ---------- | ----------------------------------------------------- |
-| [GIMP](https://www.gimp.org/)                       | Editor | Universial | Image editor, GNOME GTK                               |
-| [IrfanView](https://www.fosshub.com/IrfanView.html) | Viewer | Windows    | Ext: [plugins](https://www.irfanview.com/plugins.htm) |
-| [Krita](https://krita.org)                          | Editor | Universial | Image editor, KDE                                     |
+| Software                                            | Type   | Platform      | Description                                           |
+| --------------------------------------------------- | ------ | ------------- | ----------------------------------------------------- |
+| [GIMP](https://www.gimp.org/)                       | Editor | WIN, MAC, LNX | Image editor, GNOME GTK                               |
+| [IrfanView](https://www.fosshub.com/IrfanView.html) | Viewer | WIN           | Ext: [plugins](https://www.irfanview.com/plugins.htm) |
+| [Krita](https://krita.org)                          | Editor | WIN, MAC, LNX | Image editor, KDE                                     |
 
 ## Videos
 
-| Software                                                              | Type   | Platform       | Description                                                           |
-| --------------------------------------------------------------------- | ------ | -------------- | --------------------------------------------------------------------- |
-| [gMKVExtractGUI](https://sourceforge.net/projects/gmkvextractgui)     | Tool   | Windows        | MKVToolNix GUI Extractor                                              |
-| [HandBrake](https://handbrake.fr/)                                    | Tool   | Universial     | Recommended settings: HEVC codec, Quality 22 For IRL, 15~16 For Anime |
-| [MKVCleaver](https://blogs.sapib.ca/apps/mkvcleaver/)                 | Tool   | Windows        | MKVToolNix GUI Batch Extractor                                        |
-| [MKV MuxingBatchGUI](https://github.com/yaser01/mkv-muxing-batch-gui) | Tool   | Windows, Linux | Batch Muxing                                                          |
-| [MKVToolNix](https://mkvtoolnix.download/)                            | Tool   | Universial     |                                                                       |
-| [mpv](https://mpv.io/)                                                | Player | Universial     | SEE: [config](/docs/config/mpv.md)                                    |
-| [VideoSubFinder](https://sourceforge.net/projects/videosubfinder/)    | Tool   | Windows        | Subtitle OCR                                                          |
-| [VLC media player](https://www.videolan.org/vlc/)                     | Player | Universial     |                                                                       |
+| Software                                                              | Type   | Platform      | Description                                                           |
+| --------------------------------------------------------------------- | ------ | ------------- | --------------------------------------------------------------------- |
+| [gMKVExtractGUI](https://sourceforge.net/projects/gmkvextractgui)     | Tool   | WIN           | MKVToolNix GUI Extractor                                              |
+| [HandBrake](https://handbrake.fr/)                                    | Tool   | WIN, MAC, LNX | Recommended settings: HEVC codec, Quality 22 For IRL, 15~16 For Anime |
+| [MKVCleaver](https://blogs.sapib.ca/apps/mkvcleaver/)                 | Tool   | WIN           | MKVToolNix GUI Batch Extractor                                        |
+| [MKV MuxingBatchGUI](https://github.com/yaser01/mkv-muxing-batch-gui) | Tool   | PY            | Batch Muxing                                                          |
+| [MKVToolNix](https://mkvtoolnix.download/)                            | Tool   | WIN, MAC, LNX |                                                                       |
+| [mpv](https://mpv.io/)                                                | Player | WIN, MAC, LNX | SEE: [config](/docs/config/mpv.md)                                    |
+| [VideoSubFinder](https://sourceforge.net/projects/videosubfinder/)    | Tool   | WIN           | Subtitle OCR                                                          |
+| [VLC media player](https://www.videolan.org/vlc/)                     | Player | WIN, MAC, LNX |                                                                       |
 
 ## Upscaling
 
@@ -77,7 +76,6 @@
 | [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) | -          | Engine                                                                    |
 | [Upscayl](https://upscayl.org/)                       | Universial | GUI                                                                       |
 | [waifu2x](https://github.com/nagadomi/waifu2x)        | -          | Engine, EXT: [gui-for-windows](https://github.com/lltcggie/waifu2x-caffe) |
-
 
 # Utilities
 
@@ -154,3 +152,4 @@
 | [ThisIsWin11](https://github.com/builtbybel/ThisIsWin11)                      | Windows 11 Tweakers     |
 | [ViVeTool](https://github.com/thebookisclosed/ViVe)                           |                         |
 | [Windhawk](https://windhawk.net/)                                             | Windows 11 Tweakers     |
+| [ExplorerPatcher](https://github.com/valinet/ExplorerPatcher)                 |                         |

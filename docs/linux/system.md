@@ -17,7 +17,6 @@
 - [[#Locale|Locale]]
 # Audio
 > SEE: [PipeWire](https://wiki.archlinux.org/title/PipeWire), [WirePlumber](https://wiki.archlinux.org/title/WirePlumber)
-
 - Backend: 
   - `pipewire`
   - `wireplumber` 
@@ -39,7 +38,7 @@
 3. Restart services: `pipewire.service`, `wireplumber.service`
 
 # Network
-> Reference: [NetworkManager](https://wiki.archlinux.org/title/NetworkManager), [Firewalld](https://wiki.archlinux.org/title/Firewalld)
+> SEE: [NetworkManager](https://wiki.archlinux.org/title/NetworkManager), [Firewalld](https://wiki.archlinux.org/title/Firewalld)
 - Backend: 
   - `networkmanager`
   - `firewalld`
@@ -49,22 +48,24 @@
 
 ## DNS
 ### DNS over HTTPS
-> Reference: [Arch Wiki: DNS-over-HTTPS](https://wiki.archlinux.org/title/DNS-over-HTTPS)
+> SEE: [Arch Wiki: DNS-over-HTTPS](https://wiki.archlinux.org/title/DNS-over-HTTPS)
 
-Require package: `dns-over-https`
+Require package: 
+- `dns-over-https`
 
+Setup:
 1. Disable all services bound to port 53, check by the following cmd
 ```shell
 ss -lp 'sport = :domain'`
 ```
-2. Add following line to `/etc/resolv.conf`
-```shell
+2. Edit `resolv.conf`
+```shell title="/etc/resolv.conf"
 namespace 127.0.0.1
 ```
 3. Enable service `doh-client.service`
 
 ### Cloudflare Warp
-> Reference: [Cloudflare: Linux](https://developers.cloudflare.com/warp-client/get-started/linux/)
+> SEE: [Cloudflare: Linux](https://developers.cloudflare.com/warp-client/get-started/linux/)
  
 Tool: `warp-cli`
 1. Install Cloudflare Warp ([Package list](/docs/linux/packages.md#warp))
@@ -75,9 +76,9 @@ Tool: `warp-cli`
 
 # Peripherals
 ## Fans
-Required Packages:
-  - `lm_sensors`
-  - [coolerControl](https://docs.coolercontrol.org/)
+Prerequisites:
+  - lm_sensors
+  - coolercontrol<sup>aur</sup>
  
 1. Setup sensors
 ```shell
@@ -85,15 +86,31 @@ sudo sensors-detect
 ```
 2. Configure via coolerControl
 ## Printers
-> Reference: [Arch Wiki: CUPS](https://wiki.archlinux.org/title/CUPS)
+> SEE: [Arch Wiki: CUPS](https://wiki.archlinux.org/title/CUPS)
 
 Prerequisities:
-  - `cups`
-  - `system-config-printer`
+- cups
+- system-config-printer
 
+Setup:
 1. Enable service `cups`
 2. Configure via system-config-printer (GUI)
+## Fingerprint reader
+> SEE: [Arch Wiki: fprint](https://wiki.archlinux.org/title/Fprint)
 
+Prerequisites:
+- fprintd
+
+Setup:
+1. Enroll new fingerprint
+```shell
+sudo fprintd-enroll [OPTION] [username]
+```
+2. Add `pam_fprintd.so` as an auth method
+```shell title="/etc/pam.d/foo"
+auth    sufficient    pam_fprintd.so
+```
+*Copy `polkit-1` from `/usr/lib/pam.d/polkit-1` to `/etc/pam.d/` for polkit*
 # Service
 ## Disable xdg autostart
 > Reference: [Arch Wiki: XDG Autostart](https://wiki.archlinux.org/title/XDG_Autostart)
@@ -109,30 +126,23 @@ Prerequisities:
 
 1. Create `disable-xhci-wake.conf` -> `/etc/tmpfiles.d/`
 2. Add the following to `disable-xhci-wake.conf`:
-```
-/etc/tmpfiles.d/disable-xhci-wake.conf
-------------------------------------------------------
+```shell title="/etc/tmpfiles.d/disable-xhci-wake.conf"
 #    Path                  Mode UID  GID  Age Argument
 w    /proc/acpi/wakeup     -    -    -    -   XHCI
 ```
 
-## SDDM Autologin (with hyprland uwsm)
-> Reference: [Arch Wiki: SDDM](https://wiki.archlinux.org/title/SDDM)
+## Auto login
+> SEE [Arch Wiki: greetd](https://wiki.archlinux.org/title/Greetd#Enabling_autologin)
 
-1. Create `autologin.conf` -> `/etc/sddm.conf.d/`
-2. Add the following to `autologin.conf`
+```shell title="/etc/greetd/config.toml"
+[initial_session]
+command = "start-hyprland"
+user = "foo"
 ```
-/etc/sddm.conf.d/autologin.conf
--------------------------------
-[Autologin]
-User=lain
-Session=hyprland-uwsm.desktop
-```
-
 ## Auto mount drives 
 > Reference: [Arch Wiki: fstab](https://wiki.archlinux.org/title/Fstab#Automount_with_systemd)
 1. Find drive UUID
-```shell
+```bash
 sudo blkid
 ```
 
@@ -141,19 +151,17 @@ sudo blkid
 sudo mkdir /mnt/$(DRIVE_NAME)
 ``` 
 
-3. Edit `/etc/fstab`
-```shell
-UUID=$(DRIVE_UUID) $(MOUNT_POINT) $(PARTITION_FS) defaults 0 0 
+3. Edit config
+```shell title:/etc/fstab
+UUID=[DRIVE_UUID] [MOUNT_POINT] [PARTITION_FS] defaults 0 0 
 ```
 
 # Time & Date
 ## NTP
 > SEE: [Arch Wiki: systemd-timesyncd](https://wiki.archlinux.org/title/Systemd-timesyncd)
 
-1. Edit `/etc/systemd/timesyncd.conf`
-```
-/etc/systemd/timesyncd.conf
----------------------------
+1. Edit config
+```shell title:/etc/systemd/timesyncd.conf
 NTP=stdtime.gov.hk
 ```
 2. Enable NTP

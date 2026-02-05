@@ -25,17 +25,16 @@ Debloat with ADB
 | com.onyx.voicerecorder          | Onyx Voice Recorder                |
 | org.chromium.chrome             | NeoBrowser                         |
 
-# Useful Packages
+# Useful apps
 
-| Name                                                              | Type   | Source  | Description                                    |
-| ----------------------------------------------------------------- | ------ | ------- | ---------------------------------------------- |
-| [Boox Rapid Draw](https://github.com/sergeylappo/boox-rapid-draw) | Tool   | `.apk`  | Reduce lag when writing in 3rd-party note apps |
-| [F-Droid](https://f-droid.org/)                                   | Store  | `.apk`  | -                                              |
-| [KOReader](https://koreader.rocks/)                               | Reader | F-Droid | [Guide](/docs/books/library.md#koreader)       |
-| [Mihon](https://mihon.app/)                                       | Reader | `.apk`  | NSFW                                           |
-| [Notable](https://github.com/Ethran/notable)                      | Note   | `.apk`  | -                                              |
-
-# Read More
+| Name                                                              | Type   | Description                                    |
+| ----------------------------------------------------------------- | ------ | ---------------------------------------------- |
+| [Boox Rapid Draw](https://github.com/sergeylappo/boox-rapid-draw) | Tool   | Reduce lag when writing in 3rd-party note apps |
+| [F-Droid](https://f-droid.org/)                                   | Store  | -                                              |
+| [KOReader](https://koreader.rocks/)                               | Reader | [Guide](/docs/books/library.md#koreader)       |
+| [Mihon](https://mihon.app/)                                       | Reader | NSFW                                           |
+| [Notable](https://github.com/Ethran/notable)                      | Note   | -                                              |
+# See
 
 - [Boox Palma 2 (and Note Air 4C) Root Guide](https://github.com/jdkruzr/BooxPalma2RootGuide)
 - [Debloating the Onyx Boox Go 10.3](https://appsec.space/posts/onyx-boox-go-10.3/)
